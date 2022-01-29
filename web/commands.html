@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiseBot</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap CDN  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN  -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <img class="navbar-brand" src="images/logo.gif" alt="logo">
+        <a class="navbar-brand navbar-brand-text" href="index.html">RiseBot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">   
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">   
+                <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li> -->
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+            <a href="#" class="btn btn-purple-grad-3 my-2 my-sm-0">Login</a>
+            </div>
+        </div>
+    </nav>
+    <div class="commandBox" style="">
+      <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Commands</th>
+              <th  scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$search</td>
+              <td>Search for questions on stackoverflow by just typing $search <i>``your question``</i></td>
+            </tr>
+            <tr>
+              <td>$movie</td>
+              <td>Get movie suggestions from our bot by just typing in $movie</td>
+            </tr>
+            <tr>
+              <td>$shows</td>
+              <td>Get TV-series suggestions from our bot by just typing in $movie</td>
+            </tr>
+            <tr>
+              <td>$anime</td>
+              <td>Get anime suggestions from our bot by just typing in $movie</td>
+            </tr>
+            <tr>
+              <td>!join</td>
+              <td>Let the bot join your voice chat</td>
+            </tr>
+            <tr>
+              <td>!play</td>
+              <td>Play a music by just typing in !play <i>``song name``</i></td>
+            </tr>
+            <tr>
+              <td>!pause</td>
+              <td>Pause the music by just typing in !pause</td>
+            </tr>
+            <tr>
+              <td>!resume</td>
+              <td>Resume the music by just typing in !resume</td>
+            </tr>
+            <tr>
+              <td>!leave</td>
+              <td>Remove the bot from the voice room by just typing in !leave</td>
+            </tr>
+            <tr>
+              <td>!queue</td>
+              <td>Displays the playlist</td>
+            </tr>
+            <tr>
+              <td>!skip</td>
+              <td>Skip the music and move on to the next song in the playlist by typing in !skip</td>
+            </tr>
+            <tr>
+              <td>$inspire</td>
+              <td>Sends motivational quotes</td>
+            </tr>
+            <tr>
+            <tr>
+              <td>$tech_pics</td>
+              <td>Sends technology stack images</td>
+            </tr>
+            <tr>
+              <td>$tech_meme</td>
+              <td>Sends memes related to programming</td>
+            </tr>
+            <tr>
+              <td>$anime_pics</td>
+              <td>Sends anime images on command</td>
+            </tr>
+            <tr>
+              <td>$anime_memes</td>
+              <td>Sends anime memes on command</td>
+            </tr>
+            <tr>
+              <td>$rule</td>
+              <td>Displays the rules by typing in $rule ``any number from 1-6``</td>
+            </tr>
+            <tr>
+              <td>$d</td>
+              <td>It can delete the messages above by just typing in $d ``i`` where i is the number of messages you want to delete</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+</body>
+</html>

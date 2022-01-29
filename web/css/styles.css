@@ -1,0 +1,162 @@
+body {
+  background-color: #353535 !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.btn-purple {
+  background: #e71caa !important;
+  color: white !important;
+  padding: 10px 40px 10px 40px !important;
+  border-radius: 25px !important;
+}
+
+.navbar {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.nav-item {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.nav-link, .navbar-brand {
+  color: #e71caa !important;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  height: 110px;
+}
+
+.navbar-brand-text {
+  margin-top: 25px;
+}
+
+.firstDiv {
+  height: 500px;
+  padding: 50px;
+  margin-bottom: 180px;
+}
+
+.bigHeader {
+  padding-right: 100px;
+  padding-left: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bigHeader h1 {
+  font-size: 50px !important;
+  color: #fff !important;
+  margin-top: 200px !important;
+}
+
+.btn-purple-grad {
+  background: #3ccbd6;
+  background: linear-gradient(139deg, #3ccbd6 31%, #e71caa 78%);
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 40px !important;
+  padding: 20px 40px 20px 40px !important;
+  font-size: 18px !important;
+  -webkit-transition: all 1s ease-out !important;
+  transition: all 1s ease-out !important;
+}
+
+.btn-purple-grad:hover {
+  background: #e71caa;
+  background: linear-gradient(139deg, #e71caa 31%, #3ccbd6 78%);
+}
+
+.btn-purple-grad-2 {
+  background: #e71caa !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 40px !important;
+  padding: 20px 40px 20px 40px !important;
+  font-size: 18px !important;
+}
+
+.btn-purple-grad-3 {
+  background: #3ccbd6;
+  background: linear-gradient(139deg, #3ccbd6 31%, #e71caa 78%);
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 40px !important;
+  padding: 10px 40px 10px 40px !important;
+  font-size: 18px !important;
+}
+
+.featureDiv {
+  height: 400px;
+  margin-bottom: 70px;
+}
+
+.keyPara {
+  font-size: 25px !important;
+  color: #ada5b6;
+}
+
+.stacks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.stacks img {
+  height: 80px;
+}
+
+.inviteSec {
+  background: #e71caa;
+  background: linear-gradient(139deg, #e71caa 27%, #3df1ff 74%);
+  height: 300px;
+  text-align: center;
+  padding: 70px;
+  margin-bottom: 100px;
+}
+
+.bigHeader h2 {
+  color: #fff !important;
+}
+
+.footer-items h5, .footer-items h4, .footer-items p, .footer-items a {
+  color: white !important;
+}
+
+.footer-item a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.footer-brand {
+  height: 150px;
+}
+
+table {
+  background: #474747 !important;
+}
+
+th, td {
+  color: white !important;
+}
+
+.commandBox {
+  padding: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
